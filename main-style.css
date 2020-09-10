@@ -1,0 +1,11 @@
+body{
+    box-sizing: border-box;
+    height: 600px;
+    width: 400px;
+    
+}
+.heading{
+    font-size: 1em;
+    text-align: center;
+    font-weight: 900;
+}

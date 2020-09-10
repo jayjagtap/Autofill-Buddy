@@ -7,3 +7,6 @@ A Chrome extension to assist you in your "dream job" hunt!
 - Go to ```chrome://extensions/```
 - Set Developer mode to ON
 - Add cloned repository
+
+## Software requirements
+- Bootstrap 4
