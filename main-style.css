@@ -2,10 +2,48 @@ body{
     box-sizing: border-box;
     height: 600px;
     width: 400px;
-    
+    overflow:auto;
+    color: gray !important;
+}
+
+#main-header{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color:white;
+    width: 92vw;
+}
+
+header{
+    margin-bottom: 8px;
 }
 .heading{
-    font-size: 1em;
+    font-size: 0.8em;
     text-align: center;
-    font-weight: 900;
+    font-weight: bolder;
+}
+nav{
+    margin: 0;
+    padding: 0 !important;
+}
+.nav-item{
+    margin: 8px;
+    padding: 2px;
+}
+.nav-item:hover{
+    background-color: #d6d0d0;
+}
+
+.content{
+    margin-top: 100px;
+}
+
+#main-footer {
+    position: fixed;
+    bottom: 0;
+    width: 93vw;
+    padding: 5px;
+    text-align: center;
+    z-index: 1;
+    margin: 0;
 }
