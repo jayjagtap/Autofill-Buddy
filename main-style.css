@@ -4,8 +4,9 @@ body{
     width: 400px;
     overflow:auto;
     color: gray !important;
+    font-size: 0.8em !important;
 }
-
+/* header starts */
 #main-header{
     position: fixed;
     top: 0;
@@ -21,22 +22,56 @@ header{
     font-size: 0.8em;
     text-align: center;
     font-weight: bolder;
+    margin-bottom:  10px;
 }
 nav{
     margin: 0;
     padding: 0 !important;
 }
 .nav-item{
-    margin: 8px;
-    padding: 2px;
+    margin-left: 8px;
+    column-gap: 10px;
+}
+.navbar-nav{
+    column-gap: 10px;
 }
 .nav-item:hover{
     background-color: #d6d0d0;
 }
+/* header ends */
 
+/* content starts */
 .content{
     margin-top: 100px;
+    text-align: center;
 }
+.content button{
+    font-size: 0.8em !important;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#data{
+    margin-left: 30px;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+}
+.profiles{
+    display: flex;
+    flex-direction: column;
+}
+.profile-item{
+    border: 2px solid lightblue;
+    padding: 5px;
+    margin: 3px;
+    cursor: pointer;
+}
+.profile-item:hover{
+    background: white;
+    color: lightblue;
+    font-weight: 900;
+}
+/* content ends */
+
 
 #main-footer {
     position: fixed;
@@ -46,4 +81,5 @@ nav{
     text-align: center;
     z-index: 1;
     margin: 0;
+    font-size: 0.8em !important; 
 }

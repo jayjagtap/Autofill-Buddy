@@ -22,10 +22,13 @@
 				<nav class="navbar navbar-expand justify-content-center">
 					<ul class="navbar-nav">
 						<li class="nav-item">
+							<a class="nav-link" href="#">Add Resume</a>
+						</li>
+						<li class="nav-item">
 							<a class="nav-link" href="#">Update Data</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Add Job</a>
+							<a class="nav-link" href="#">More</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">Settings</a>
@@ -39,32 +42,50 @@
 		<div class="content">
 			<div class="jumbotron" id="update-data">
 				<button type="button" class="btn btn-info" id="upload-resume">Upload Resume</button>
-			</div>
-			<div class="jumbotron" id="job-stuff">
-				<button type="button" class="btn btn-info" id="upload-resume">Upload Resume</button>
-			</div>
-			<div class="jumbotron" id="settings">
-				<button type="button" class="btn btn-info" id="upload-resume">Upload Resume</button>
-			</div>
 
-			<div class="jumbotron" id="update-data">
-				<button type="button" class="btn btn-info" id="upload-resume">Upload Resume</button>
+				<span>OR</span>
+
+				<button type="button" class="btn btn-info" id="manual-data">Enter Manually</button>
+
 			</div>
-			<div class="jumbotron" id="job-stuff">
-				<button type="button" class="btn btn-info" id="upload-resume">Upload Resume</button>
-			</div>
-			<div class="jumbotron" id="settings">
-				<button type="button" class="btn btn-info" id="upload-resume">Upload Resume</button>
-			</div>
-			<div class="jumbotron" id="update-data">
-				<button type="button" class="btn btn-info" id="upload-resume">Upload Resume</button>
-			</div>
-			<div class="jumbotron" id="job-stuff">
-				<button type="button" class="btn btn-info" id="upload-resume">Upload Resume</button>
-			</div>
-			<div class="jumbotron" id="settings">
-				<button type="button" class="btn btn-info" id="upload-resume">Upload Resume</button>
-			</div>
+			<div class="jumbotron">
+				<table id="data">
+					<thead>
+						<tr>
+							<th width="35%">Field Name</th>
+							<th width="75%">Field Value</th>
+						</tr>
+					</thead>
+					<tr>
+						<td>Name</td>
+						<td>
+							<input type="text" value="Jon Doe"/>
+						</td>
+					</tr>
+					<tr>
+						<td>Why this position</td>
+						<td>
+							<textarea rows=3>- Worked on XYZ technology 		- Implemented ABC
+							</textarea>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<button type="button" style="width:100%;margin:0;" class="btn btn-info">Add a new field +</button>
+						</td>
+					</tr>
+				</table>
+			</div>		
+			<div class="jumbotron">
+				<span><b>Profiles</b></span>
+				<div class="profiles">
+					<div class="profile-item"> Software Engineering</div>
+					<div class="profile-item"> Data Science</div>
+				</div>
+				<br>
+				<button type="button" style="width:100%;margin:0;" class="btn btn-info">Create a new profile +</button>
+
+			</div>	
 		</div>
 		<footer>
 			<div class="jumbotron" id="main-footer">
