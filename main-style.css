@@ -45,6 +45,9 @@ nav{
     margin-top: 100px;
     text-align: center;
 }
+input[type=text], textarea{
+    color: gray;
+}
 .content button{
     font-size: 0.8em !important;
     margin-left: 20px;
