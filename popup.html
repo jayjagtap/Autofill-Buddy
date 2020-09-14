@@ -16,7 +16,8 @@
 <body>
 	<div class="container">
 		<header id="main-header">
-			<div class="heading">JOB APPLICATION TRACKER</div>
+			<br />
+			<div class="heading"><h4> APPLICATION TRACKER </h4></div>
 			<!-- navingation starts -->
 			<div class="jumbotron" style="padding:0;margin:0;">
 				<nav class="navbar navbar-expand justify-content-center">
@@ -40,14 +41,24 @@
 
 		</header>
 		<div class="content">
-			<div class="jumbotron" id="update-data">
+			<!-- <div class="jumbotron" id="update-data">
 				<button type="button" class="btn btn-info" id="upload-resume">Upload Resume</button>
 
 				<span>OR</span>
 
 				<button type="button" class="btn btn-info" id="manual-data">Enter Manually</button>
 
-			</div>
+			</div> -->
+			<br/>
+			<div class="jumbotron">
+				<span><b>Profiles</b></span>
+				<div class="profiles">
+					<button class="profile-item" id = "temp" value="Software Engineering">Software Engineering</button>
+					<button class="profile-item" id = "temp2" value="Data Science">Data Science</button>
+				</div>
+				<br>
+				<button type="button" style="width:100%;margin:0;" class="btn btn-info">Create a new profile +</button>
+			</div>	
 			<div class="jumbotron">
 				<table id="data">
 					<thead>
@@ -57,18 +68,19 @@
 						</tr>
 					</thead>
 					<tr>
-						<td>Name</td>
+						<td>Internship 1</td>
 						<td>
-							<input type="text" value="Jon Doe"/>
+							<textarea rows=3>- Worked on XYZ technology &#13;&#10;- Implemented ABC feature
+							</textarea>
 						</td>
 					</tr>
-					<tr>
+					<!-- <tr>
 						<td>Why this position</td>
 						<td>
 							<textarea rows=3>- Worked on XYZ technology 		- Implemented ABC
 							</textarea>
 						</td>
-					</tr>
+					</tr> -->
 					<tr>
 						<td colspan="2">
 							<button type="button" style="width:100%;margin:0;" class="btn btn-info">Add a new field +</button>
@@ -76,7 +88,7 @@
 					</tr>
 				</table>
 			</div>		
-			<div class="jumbotron">
+			<!-- <div class="jumbotron">
 				<span><b>Profiles</b></span>
 				<div class="profiles">
 					<div class="profile-item"> Software Engineering</div>
@@ -85,7 +97,7 @@
 				<br>
 				<button type="button" style="width:100%;margin:0;" class="btn btn-info">Create a new profile +</button>
 
-			</div>	
+			</div>	 -->
 		</div>
 		<br>
 		<footer>
