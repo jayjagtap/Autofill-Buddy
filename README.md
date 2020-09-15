@@ -7,7 +7,7 @@ If you prefer to download the video, they are available in 720p and 1080p in vid
 
 ## Prototype
 
-<img src="https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/video/prototype-1.png" style="height:400px; width:250px;">
+<img src="https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/video/prototype-1.png" style="height:200px; width:150px;">
 
 ## Installation
 
