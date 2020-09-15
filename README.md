@@ -1,12 +1,13 @@
 # Job Application Autofill
 A Chrome extension to assist you in your "dream job" hunt!
 
-[![Watch the video](https://github.com/jayjagtap/Autofill-Buddy/blob/master/thumbnail.png)](https://youtu.be/BZmXUMSAnfc)
+[![Watch the video](https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/thumbnail.png)](https://youtu.be/BZmXUMSAnfc)
 
 If you prefer to download the video, they are available in 720p and 1080p in video folder of our repo.
 
 ## Prototype
-![Prototype-1](https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/video/prototype-1.png)
+
+<img src="https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/video/prototype-1.png" style="height:400px; width:250px;">
 
 ## Installation
 
