@@ -5,6 +5,9 @@ A Chrome extension to assist you in your "dream job" hunt!
 
 If you prefer to download the video, they are available in 720p and 1080p in video folder of our repo.
 
+## Prototype
+![Prototype-1](https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/video/prototype-1.png)
+
 ## Installation
 
 - ```git clone <git-repo-url-here>```
