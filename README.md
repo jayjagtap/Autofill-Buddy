@@ -1,6 +1,6 @@
-# Job Application Autofill [![HitCount](http://hits.dwyl.com/jayjagtap/Autofill-Buddy.svg)](http://hits.dwyl.com/jayjagtap/Autofill-Buddy)
+# Job Application Autofill    [![HitCount](http://hits.dwyl.com/jayjagtap/Autofill-Buddy.svg)](http://hits.dwyl.com/jayjagtap/Autofill-Buddy)
 
-A Chrome extension to assist you in your "dream job" hunt!
+A Chrome extension to assist you in your <b>dream job<b> hunt!
 
 [![Watch the video](https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/thumbnail.png)](https://youtu.be/BZmXUMSAnfc)
 
