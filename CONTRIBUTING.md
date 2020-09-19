@@ -1,3 +1,6 @@
+👍🎉 First off, thanks for taking the time to contribute! 🎉👍
+
+
 ## Contributing to Autobill Buddy
 Autobill Buddy is a community project. We invite your participation through financial contributions, issues, and pull requests!
 
