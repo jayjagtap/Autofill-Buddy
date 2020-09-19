@@ -21,9 +21,14 @@ include:
 * Showing empathy towards other community members
 * Be friendly and patient.
 
+## Be respectful
+In particular, respect differences of opinion.
 
+## Be charitable
+Interpret the arguments of others in good faith, do not seek to disagree.
+When we do disagree, try to understand why.
 
-Examples of unacceptable behavior by participants include:
+## Examples of unacceptable behavior by participants include:
 
 * The use of sexualized language or imagery and unwelcome sexual attention or
  advances

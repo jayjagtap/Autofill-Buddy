@@ -5,7 +5,11 @@
 Autobill Buddy is a community project. We invite your participation through financial contributions, issues, and pull requests!
 
 ### Ways you can help
-<hr/>
+1. Fork the repository
+2. Develop you Code on a relevant branch 
+3. Check for code standards and format
+4. Create a pull request to appropriate branch
+5. Follow your convertsation to get the pull request merged
 
 #### Financial contributions
 We welcome financial contributions in full transparency on our open collective. Anyone can file an expense. If the expense makes sense for the development of the community, it will be "merged" into the ledger of our open collective by the core contributors and the person who filed the expense will be reimbursed.
