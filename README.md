@@ -1,3 +1,6 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 <p align=center>
     <h2><I> Job Application Autofill </I></h2>
     <blockquote>A Chrome extension to assist you in your <b>dream job</b> hunt!</blockquote>
