@@ -9,7 +9,7 @@
 
 </p>
 Click on the image below to see the Video on Youtube! 
-Alternatively, you can download the video from the "video" folder of this repository!
+Alternatively, you can click over here for the [720p](https://drive.google.com/file/d/1MLowTYHlZKbeY0d82yjHUKPnBAssRBA5/view?usp=sharing) or [1080p](https://drive.google.com/file/d/1OxoCkMK3PhX8sMYNUHoRRzcCfGae-zqU/view?usp=sharing) versions, which you can view or download!
 
 [![Watch the video](https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/video/thumbnail.png)](https://youtu.be/BZmXUMSAnfc)
 
