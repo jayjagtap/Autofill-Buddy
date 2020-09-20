@@ -21,6 +21,7 @@ Alternatively, you can download the video from the "video" folder of this reposi
 ![image](https://github.com/jayjagtap/Autofill-Buddy/blob/master/Resources/Images/load_unpack_demo.jpg)
 - Add cloned project repository  
 ![image](https://github.com/jayjagtap/Autofill-Buddy/blob/master/Resources/Images/select-folder_demo.jpg)
+- Chrome Extension now will be added to Google Chrome
 
 
 
