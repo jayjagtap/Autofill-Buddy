@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<head>
+    <title>Autofill Buddy</title>
+    <!-- <script src="popup.js"></script> -->
+    <link rel="stylesheet" href="main-style.css" />
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <script type="text/javascript">
+        function addWorkExperience() {
+            append a section for new experiences
+        }
+    </script> -->
+</head>
+
+<body>
+    <div class="container">
+
+        <form>
+            <table>
+                <h3>Personal Information</h3><br />
+                <tr>
+                    <td><label for="fname">First Name:</label></td>
+                    <td><input type="text" id="fname"></td>
+                </tr>
+                <tr>
+                    <td><label for="mname">Middle Name:</label></td>
+                    <td><input type="text" id="mname"></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">Last Name:</label></td>
+                    <td><input type="text" id="lname"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone number:</label></td>
+                    <td><input type="text" id="phone"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail:</label></td>
+                    <td><input type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="streetaddress">Street Address:</label></td>
+                    <td><input type="text" id="streetaddress"></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City:</label></td>
+                    <td><input type="text" id="city"></td>
+                </tr>
+            </table>
+
+            <h3>Work Experience</h3><br />
+            <table id="workexperience">
+                <tr>
+                    <td><label for="jobtitle">Job Title:</label></td>
+                    <td><input type="text" id="jobtitle"></td>
+                </tr>
+                <tr>
+                    <td><label for="company">Company:</label></td>
+                    <td><input type="text" id="Company"></td>
+                </tr>
+                <tr>
+                    <td><label for="location">Location:</label></td>
+                    <td><input type="text" id="location"></td>
+                </tr>
+                <tr>
+                    <td><label for="fromDate">From Date:</label></td>
+                    <td><input type="month" id="fromDate" placeholder="YYYY-MM"></td>
+                </tr>
+                <tr>
+                    <td><label for="fromDate">To Date:</label></td>
+                    <td><input type="month" id="toDate" placeholder="YYYY-MM"></td>
+                </tr>
+                <tr>
+                    <td><label for="roledescription">Role Description:</label></td>
+                    <td><textarea id="roledescription"></textarea><br /></td>
+                </tr>
+            </table>
+            <h3>Education</h3><br />
+            <table id="education">
+                <tr>
+                    <td><label for="school">School or University:</label></td>
+                    <td><input type="text" id="school"></td>
+                </tr>
+                <tr>
+                    <td><label for="fromDateSchool">From Date:</label></td>
+                    <td><input type="text" id="fromDateSchool" placeholder="YYYY"></td>
+                </tr>
+                <tr>
+                    <td><label for="toDateSchool">To (Actual or Expected):</label></td>
+                    <td><input type="text" id="location" placeholder="YYYY"></td>
+                </tr>
+                <tr>
+                    <td><label for="degree">Degree:</label></td>
+                    <td><input type="text" id="degree"></td>
+                </tr>
+                <tr>
+                    <td><label for="gpa">GPA:</label></td>
+                    <td><input type="text" id="gpa"></td>
+                </tr>
+            </table>
+            <h3>Social Media URLs</h3>
+            <table>
+                <tr>
+                    <td><label for="linkedin">LinkedIn:</label></td>
+                    <td><input type="url" id="linkedin" /></td>
+                </tr>
+                <tr>
+                    <td><label for="github">Github:</label></td>
+                    <td><input type="url" id="github" /></td>
+                </tr>
+                <tr>
+                    <td><label for="portfolio">Portfolio:</label></td>
+                    <td><input type="url" id="portfolio" /></td>
+                </tr>
+                <tr>
+                    <td><label for="website">Website:</label></td>
+                    <td><input type="url" id="website" /></td>
+                </tr>
+            </table>
+        </form>
+        <footer>
+            <div class="jumbotron" id="main-footer">
+                <div class="container text-center">
+                    <small>Copyright &copy; Your Website</small>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!--Bootstrap 4 CDN-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
