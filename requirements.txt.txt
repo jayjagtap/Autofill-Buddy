@@ -1,0 +1,5 @@
+#
+#This file is used for installing all python's packages that this project requires to start running off the ground.
+#
+
+pytest==6.0.1  #for pytest
