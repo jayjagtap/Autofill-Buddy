@@ -1,9 +1,9 @@
-document.addEventListener('DOMContentLoaded', function () {
-  var checkPageButton = document.getElementById('upload-resume')
-  checkPageButton.addEventListener('click', function () {
+// document.addEventListener('DOMContentLoaded', function () {
+//   var checkPageButton = document.getElementById('upload-resume')
+//   checkPageButton.addEventListener('click', function () {
 
-  })
-}, false)
+//   })
+// }, false)
 
 window.onload = function () {
   
@@ -35,26 +35,28 @@ window.onload = function () {
     var WE = document.getElementById("WE");
     var divEntry = document.createElement('div');
     divEntry.className = "wex";
-    divEntry.id = 'workexperience'+(WE.childElementCount+1);
     var newWE = document.getElementsByClassName("wex")[0];
     divEntry.innerHTML = newWE.innerHTML;
     WE.appendChild(divEntry);
+    assignIDs();
   }
 
-
-  var delWorkExButton = document.getElementById('delWex');
-  if(delWorkExButton){
-    delWorkExButton.addEventListener('click', removeWorkEx);
-    console.log("Amit");
-    var id = delWorkExButton.parentNode.id;
-    console.log(id);
-  }
-  function removeWorkEx(){
-    var id = delWorkExButton.parentNode.id;
-    console.log(id);
-    if(document.getElementById("WE").childElementCount>1){
-        var entry = document.getElementById(id);
-        entry.remove();
+  function assignIDs(){
+    var workexs = document.getElementsByClassName('wex');
+    var delworkexs = document.getElementsByClassName('delWex');
+    console.log(workexs.length);
+    for(var i=0;i<workexs.length;i++){
+      workexs[i].id = 'workexperience'+(i+1);
+      delworkexs[i].id='delworkex'+(i+1);
+      document.getElementById('delworkex'+(i+1)).addEventListener('click', function(){
+        var delID = this.parentNode.id;
+        if(delID!='workexperience1'){
+          var entry = document.getElementById(delID);
+          console.log(entry);
+          entry.remove(); 
+        }
+        assignIDs();
+      });
     }
   }
 
