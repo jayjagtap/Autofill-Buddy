@@ -13,17 +13,23 @@ Alternatively, you can download the video from the "video" folder of this reposi
 
 [![Watch the video](https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/video/thumbnail.png)](https://youtu.be/BZmXUMSAnfc)
 
+## Installation and Setting Up to use
+
+- ```git clone https://github.com/jayjagtap/Autofill-Buddy.git```
+- Go to ```chrome://extensions/```
+- Select Load Unpacked
+![image](https://github.com/jayjagtap/Autofill-Buddy/blob/master/Resources/Images/load_unpack_demo.jpg)
+- Add cloned project repository
+![image](https://github.com/jayjagtap/Autofill-Buddy/blob/master/Resources/Images/select-folder_demo.jpg)
+
+
+
 
 ## Prototype
 
 <img src="https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/video/prototype-1.png" height="500px" width="350px"/>
 
-## Installation
 
-- ```git clone <git-repo-url-here>```
-- Go to ```chrome://extensions/```
-- Set Developer mode to ON
-- Add cloned repository
 
 
 ## Software requirements
