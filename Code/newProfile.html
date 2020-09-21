@@ -17,13 +17,13 @@
 <body>
     <div class="container">
         <br/>
-        <form>
-            <div id="PI">
+        <form id="newProfileForm" action="">
+            <div id="profileInfo">
                 <table>
                     <h3>New Profile Information</h3><br />
                     <tr>
                         <td><label for="profileName">Profile Name:</label></td>
-                        <td><input type="text" id="profileName"></td>
+                        <td><input type="text" id="profileName" name="profileName"></td>
                     </tr>
                 </table>
             </div>
@@ -32,31 +32,31 @@
                     <h3>Personal Information</h3><br />
                     <tr>
                         <td><label for="fname">First Name:</label></td>
-                        <td><input type="text" id="fname"></td>
+                        <td><input type="text" id="fname" name="fname"></td>
                     </tr>
                     <tr>
                         <td><label for="mname">Middle Name:</label></td>
-                        <td><input type="text" id="mname"></td>
+                        <td><input type="text" id="mname" name="mname"></td>
                     </tr>
                     <tr>
                         <td><label for="lname">Last Name:</label></td>
-                        <td><input type="text" id="lname"></td>
+                        <td><input type="text" id="lname" name="lname"></td>
                     </tr>
                     <tr>
                         <td><label for="phone">Phone number:</label></td>
-                        <td><input type="text" id="phone"></td>
+                        <td><input type="text" id="phone" name="phone"></td>
                     </tr>
                     <tr>
                         <td><label for="email">E-mail:</label></td>
-                        <td><input type="email" id="email"></td>
+                        <td><input type="email" id="email" name="email"></td>
                     </tr>
                     <tr>
                         <td><label for="streetaddress">Street Address:</label></td>
-                        <td><input type="text" id="streetaddress"></td>
+                        <td><input type="text" id="streetaddress" name="streetaddress"></td>
                     </tr>
                     <tr>
                         <td><label for="city">City:</label></td>
-                        <td><input type="text" id="city"></td>
+                        <td><input type="text" id="city" name="city"></td>
                     </tr>
                 </table>
             </div>
@@ -68,27 +68,27 @@
                     <table>
                         <tr>
                             <td><label for="jobtitle">Job Title:</label></td>
-                            <td><input type="text" id="jobtitle"></td>
+                            <td><input type="text" id="jobtitle" name="jobtitle"></td>
                         </tr>
                         <tr>
                             <td><label for="company">Company:</label></td>
-                            <td><input type="text" id="Company"></td>
+                            <td><input type="text" id="Company" name="Company"></td>
                         </tr>
                         <tr>
                             <td><label for="location">Location:</label></td>
-                            <td><input type="text" id="location"></td>
+                            <td><input type="text" id="wlocation" name="wlocation"></td>
                         </tr>
                         <tr>
                             <td><label for="fromDate">From Date:</label></td>
-                            <td><input type="month" id="fromDate" placeholder="YYYY-MM"></td>
+                            <td><input type="month" id="fromDate" name="fromDate" placeholder="YYYY-MM"></td>
                         </tr>
                         <tr>
                             <td><label for="fromDate">To Date:</label></td>
-                            <td><input type="month" id="toDate" placeholder="YYYY-MM"></td>
+                            <td><input type="month" id="toDate" name="toDate" placeholder="YYYY-MM"></td>
                         </tr>
                         <tr>
                             <td><label for="roledescription">Role Description:</label></td>
-                            <td><textarea id="roledescription"></textarea><br /></td>
+                            <td><textarea id="roledescription" name="roledescription"></textarea><br /></td>
                         </tr>
                     </table>
                     <input type="button" class="btn btn-danger delWex" value="Remove workex">
@@ -104,23 +104,23 @@
                     <table>
                         <tr>
                             <td><label for="school">School or University:</label></td>
-                            <td><input type="text" id="school"></td>
+                            <td><input type="text" id="school" name="school"></td>
                         </tr>
                         <tr>
                             <td><label for="fromDateSchool">From Date:</label></td>
-                            <td><input type="text" id="fromDateSchool" placeholder="YYYY"></td>
+                            <td><input type="text" id="fromDateSchool" name="fromDateSchool" placeholder="YYYY"></td>
                         </tr>
                         <tr>
                             <td><label for="toDateSchool">To (Actual or Expected):</label></td>
-                            <td><input type="text" id="location" placeholder="YYYY"></td>
+                            <td><input type="text" id="toDateSchool" name="toDateSchool" placeholder="YYYY"></td>
                         </tr>
                         <tr>
                             <td><label for="degree">Degree:</label></td>
-                            <td><input type="text" id="degree"></td>
+                            <td><input type="text" id="degree" name="degree"></td>
                         </tr>
                         <tr>
                             <td><label for="gpa">GPA:</label></td>
-                            <td><input type="text" id="gpa"></td>
+                            <td><input type="text" id="gpa" name="gpa"></td>
                         </tr>
                     </table>
                     <input type="button" class="btn btn-danger delEdu" value="Remove Education">
@@ -134,19 +134,19 @@
             <table>
                 <tr>
                     <td><label for="linkedin">LinkedIn:</label></td>
-                    <td><input type="url" id="linkedin" /></td>
+                    <td><input type="url" id="linkedin" name="linkedin" /></td>
                 </tr>
                 <tr>
                     <td><label for="github">Github:</label></td>
-                    <td><input type="url" id="github" /></td>
+                    <td><input type="url" id="github" name="github" /></td>
                 </tr>
                 <tr>
                     <td><label for="portfolio">Portfolio:</label></td>
-                    <td><input type="url" id="portfolio" /></td>
+                    <td><input type="url" id="portfolio" name="portfolio" /></td>
                 </tr>
                 <tr>
                     <td><label for="website">Website:</label></td>
-                    <td><input type="url" id="website" /></td>
+                    <td><input type="url" id="website" name="website" /></td>
                 </tr>
             </table>
             <br/>

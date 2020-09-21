@@ -57,4 +57,8 @@ window.onload = function () {
   function createNewProfile () {
     location.href = '/Code/newProfile.html';
   }
+
+  document.getElementById('Data').addEventListener('click', function(){
+    location.href='/Code/viewProfile.html';
+  });
 }

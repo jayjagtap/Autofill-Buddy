@@ -87,5 +87,21 @@ window.onload = function () {
       }
     }
   
+    document.getElementById('saveNewProfile').addEventListener('click', function(){
+      var fields = $('#newProfileForm')[0];
+      var formdata = new FormData(fields);
+      var formjson = {};
+      for(var pair of formdata.entries()){
+        var keyy = pair[0];
+        formjson[keyy] = pair[1];
+      }
+      var key = formjson['profileName'];
+      var val = formjson;
+      chrome.storage.sync.set({key: val}, function() {
+        alert('Data stored successfully');
+      });
+      console.log(formjson['profileName']);
+      location.href = '/Code/popup.html';
+    });
   
   }
