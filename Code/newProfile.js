@@ -8,7 +8,7 @@ window.onload = function () {
       newProfileButton.addEventListener('click', createNewProfile);
     }
     function createNewProfile () {
-      location.href = '/Code/newProfile.html';
+      location.href = 'newProfile.html';
     }
   
     //Handle going back
@@ -17,7 +17,7 @@ window.onload = function () {
       cancelProfileButton.addEventListener('click', cancelProfile);
     }
     function cancelProfile(){
-      location.href = '/Code/popup.html';
+      location.href = 'popup.html';
     }
   
   
@@ -101,7 +101,7 @@ window.onload = function () {
         alert('Data stored successfully');
       });
       console.log(formjson['profileName']);
-      location.href = '/Code/popup.html';
+      location.href = 'popup.html';
     });
   
   }

@@ -136,6 +136,6 @@ window.onload = function () {
     location.href = 'newProfile.html';
     }
     document.getElementById('Data').addEventListener('click', function(){
-      location.href='/Code/viewProfile.html';
+      location.href='viewProfile.html';
     });
 }
