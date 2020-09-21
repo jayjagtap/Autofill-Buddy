@@ -7,9 +7,11 @@
 [![GitHub issues](https://img.shields.io/github/issues/jayjagtap/Autofill-Buddy.svg)](https://github.com/jayjagtap/Autofill-Buddy/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/jayjagtap/Autofill-Buddy.svg)](https://https://github.com/jayjagtap/Autofill-Buddy/issues?q=is%3Aissue+is%3Aclosed) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.com/jayjagtap/Autofill-Buddy.svg?branch=master)](https://travis-ci.com/github/jayjagtap/Autofill-Buddy)
 
+
+Click on the image below to see the video on Youtube! 
+Alternatively, you can click over here for the [720p](https://drive.google.com/file/d/1MLowTYHlZKbeY0d82yjHUKPnBAssRBA5/view?usp=sharing) or [1080p](https://drive.google.com/file/d/1OxoCkMK3PhX8sMYNUHoRRzcCfGae-zqU/view?usp=sharing) versions, which you can view or download!
+
 </p>
-Click on the image below to see the Video on Youtube! 
-Alternatively, you can download the video from the "video" folder of this repository!
 
 [![Watch the video](https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/video/thumbnail.png)](https://youtu.be/BZmXUMSAnfc)
 

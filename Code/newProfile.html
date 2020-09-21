@@ -16,7 +16,17 @@
 
 <body>
     <div class="container">
+        <br/>
         <form>
+            <div id="PI">
+                <table>
+                    <h3>New Profile Information</h3><br />
+                    <tr>
+                        <td><label for="profileName">Profile Name:</label></td>
+                        <td><input type="text" id="profileName"></td>
+                    </tr>
+                </table>
+            </div>
             <div id="PI">
                 <table>
                     <h3>Personal Information</h3><br />
@@ -54,7 +64,7 @@
             <h3>Work Experience</h3><br />
 
             <div id="WE">
-                <div class="wex" id="workexperience1">
+                <div class="wex" id="workexperience">
                     <table>
                         <tr>
                             <td><label for="jobtitle">Job Title:</label></td>
@@ -81,7 +91,7 @@
                             <td><textarea id="roledescription"></textarea><br /></td>
                         </tr>
                     </table>
-                    <input type="button" id="delWex" class="btn btn-danger" value="Remove workex">
+                    <input type="button" class="btn btn-danger delWex" value="Remove workex">
                     <br/><br/>
                 </div>
             </div>
@@ -89,8 +99,8 @@
             <input type="button" id="addWorkEx" class="btn btn-info" value="Add new Work Ex" >
 
             <h3>Education</h3><br />
-            <div id="edu">
-                <div class="education" id="edu1">
+            <div id="EDU">
+                <div class="edu" id="education">
                     <table>
                         <tr>
                             <td><label for="school">School or University:</label></td>
@@ -113,11 +123,11 @@
                             <td><input type="text" id="gpa"></td>
                         </tr>
                     </table>
-                    <input type="button" id="delEdu" class="btn btn-danger" value="Remove Education" onclick="removeWorkEx(this.parentNode.id)">
+                    <input type="button" class="btn btn-danger delEdu" value="Remove Education">
                     <br/><br/>
                 </div>
             </div>
-            <input type="button" id="addEdu" class="btn btn-info" value="Add new Education" onclick="addNewWorkEx();">
+            <input type="button" id="addEdu" class="btn btn-info" value="Add new Education">
 
 
             <h3>Social Media URLs</h3>
