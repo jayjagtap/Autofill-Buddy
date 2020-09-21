@@ -45,3 +45,16 @@ function sendOutput(valid) {
 
   element.innerHTML = html
 }
+
+window.onload = function () {
+  
+  
+  // Handle new profile redirect
+  var newProfileButton = document.getElementById('newProfile');
+  if(newProfileButton){
+    newProfileButton.addEventListener('click', createNewProfile);
+  }
+  function createNewProfile () {
+    location.href = '/Code/newProfile.html';
+  }
+}
