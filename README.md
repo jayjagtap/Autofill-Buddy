@@ -21,9 +21,9 @@ Alternatively, you can click over here for the [720p](https://drive.google.com/f
 - ```git clone https://github.com/jayjagtap/Autofill-Buddy.git```
 - Go to ```chrome://extensions/```
 - Select Load Unpacked  
-![image](https://github.com/jayjagtap/Autofill-Buddy/blob/master/Resources/Images/Choose_folder.png)
-- Add cloned project repository  
 ![image](https://github.com/jayjagtap/Autofill-Buddy/blob/master/Resources/Images/Load_unpacked.png)
+- Add cloned project repository  
+![image](https://github.com/jayjagtap/Autofill-Buddy/blob/master/Resources/Images/Choose_folder.png)
 - Chrome Extension now will be added to Google Chrome
 
 
@@ -35,7 +35,7 @@ Alternatively, you can click over here for the [720p](https://drive.google.com/f
 
 
 
-## Prototype
+## Documentation
 - More support and documentation available on the wiki of this repo!
 
 ## Software requirements
