@@ -6,6 +6,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/jayjagtap/Autofill-Buddy/graphs/commit-activity) 
 [![GitHub issues](https://img.shields.io/github/issues/jayjagtap/Autofill-Buddy.svg)](https://github.com/jayjagtap/Autofill-Buddy/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/jayjagtap/Autofill-Buddy.svg)](https://https://github.com/jayjagtap/Autofill-Buddy/issues?q=is%3Aissue+is%3Aclosed) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.com/jayjagtap/Autofill-Buddy.svg?branch=master)](https://travis-ci.com/github/jayjagtap/Autofill-Buddy)
+[![DOI](https://zenodo.org/badge/245290005.svg)](https://zenodo.org/badge/latestdoi/245290005)
 
 
 Click on the image below to see the video on Youtube! 
@@ -20,9 +21,9 @@ Alternatively, you can click over here for the [720p](https://drive.google.com/f
 - ```git clone https://github.com/jayjagtap/Autofill-Buddy.git```
 - Go to ```chrome://extensions/```
 - Select Load Unpacked  
-![image](https://github.com/jayjagtap/Autofill-Buddy/blob/master/Resources/Images/load_unpack_demo.jpg)
+![image](https://github.com/jayjagtap/Autofill-Buddy/blob/master/Resources/Images/Load_unpacked.png)
 - Add cloned project repository  
-![image](https://github.com/jayjagtap/Autofill-Buddy/blob/master/Resources/Images/select-folder_demo.jpg)
+![image](https://github.com/jayjagtap/Autofill-Buddy/blob/master/Resources/Images/Choose_folder.png)
 - Chrome Extension now will be added to Google Chrome
 
 
@@ -34,6 +35,8 @@ Alternatively, you can click over here for the [720p](https://drive.google.com/f
 
 
 
+## Documentation
+- More support and documentation available on the wiki of this repo!
 
 ## Software requirements
 - Node v14.11.0 & npm 6.14.8
