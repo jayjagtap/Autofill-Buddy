@@ -175,14 +175,18 @@ function fillProfileDiv(){
   });
 }
 
-// function addListenerToProfile(){
-//   var profiles = document.getElementsByClassName('profile-item');
-//   for(var i=0;i<profiles.length;i++){
-//     profiles[i].addEventListener('click', function(){
-
-//     });
-//   }
-// }
+function addListenerToProfile(){
+  var profiles = document.getElementsByClassName('profile-item');
+  console.log(profiles.length); 
+  for(var i=0;i<profiles.length;i++){
+    // console.log(profiles);
+    profiles[i].addEventListener('click', function(){
+      console.log("amit");
+      localStorage.setItem('selectedProfile', profiles[i].id);
+      location.href='viewProfile.html';
+    });
+  }
+}
 
 window.onload = function () {
     types = ["input","textarea"]
@@ -197,7 +201,7 @@ window.onload = function () {
     function createNewProfile () {
     location.href = 'newProfile.html';
     }
-    addListenerToProfile();
-    fillVariablesDiv();
     fillProfileDiv();
+    fillVariablesDiv();
+    addListenerToProfile();
 }
