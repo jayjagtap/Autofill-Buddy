@@ -15,7 +15,7 @@ Alternatively, you can click over here for the [720p](https://drive.google.com/f
 
 [![Watch the video](https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/Resources/Images/thumbnail.png)](https://youtu.be/BZmXUMSAnfc)
 
-## Installation and Setting Up to use
+### Installation and Setting Up to use
 <details>
 <summary>Installation Guide</summary>
 
@@ -30,16 +30,16 @@ Alternatively, you can click over here for the [720p](https://drive.google.com/f
 </details>
 
 
-## Prototype
+### Prototype
 
 <img src="https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/Resources/Images/prototype-1.png" height="500px" width="350px"/>
 
 
 
-## Documentation
+### Documentation
 - More support and documentation available on the wiki of this repo!
 
-## Software requirements
+### Software requirements
 - Node v14.11.0 & npm 6.14.8
     - For Mac, get brew
     `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
@@ -52,8 +52,5 @@ Alternatively, you can click over here for the [720p](https://drive.google.com/f
     - `npm install -g jshint`
 - Bootstrap 4
 
-## Experiment
-- Time (Quantitative) and User Feedback (User Experience), both can be used to compare manual vs using this chrome extension during job application form filling.
-
-## Bug
+#### Bug?
 - Raise a issue on this repository, we would love to look at it ❤️
