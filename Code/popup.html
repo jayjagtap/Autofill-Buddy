@@ -6,7 +6,7 @@
 
 <head>
 	<title>Autofill Buddy</title>
-	<script src="popup.js"></script>
+	<script src="contentScript.js"></script>
 	<link rel="stylesheet" href="main-style.css" />
 	<!--Bootstrap CSS-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -64,14 +64,17 @@
 				<table id="data">
 					<thead>
 						<tr>
-							<th width="35%">Field Name</th>
-							<th width="75%">Field Value</th>
+							<th width="35%">Tag Name</th>
+							<th width="75%">Work Experience</th>
 						</tr>
 					</thead>
 					<tr>
-						<td>Internship 1</td>
 						<td>
-							<textarea rows=3 placeholder="your workex here" id="workex1">
+							<input type="text" placeholder="tag name, e.g: workex1" id="tag_name">
+						</td>
+						
+						<td>
+							<textarea rows=3 placeholder="your workex here" id="workex_desc">
 							</textarea>
 						</td>
 					</tr>
@@ -84,7 +87,7 @@
 					</tr> -->
 					<tr>
 						<td colspan="2">
-							<button type="button" style="width:100%;margin:0;" class="btn btn-info">Add a new field +</button>
+							<button type="button" style="width:100%;margin:0;" class="btn btn-info" id="submit_data">Submit Data</button>
 						</td>
 					</tr>
 				</table>
