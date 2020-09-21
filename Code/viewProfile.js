@@ -1,5 +1,5 @@
 window.onload = function(){
-    var profileName = 'abc';
+    var profileName = localStorage.getItem('selectedProfile');
     chrome.storage.sync.get(profileName, function(result) {
         console.log(result[profileName][0]);
         var outputJson = result[profileName][0];
