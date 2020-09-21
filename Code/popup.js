@@ -38,10 +38,10 @@ window.onload = function () {
     var newWE = document.getElementsByClassName("wex")[0];
     divEntry.innerHTML = newWE.innerHTML;
     WE.appendChild(divEntry);
-    assignIDs();
+    assignIdsWorkEx();
   }
 
-  function assignIDs(){
+  function assignIdsWorkEx(){
     var workexs = document.getElementsByClassName('wex');
     var delworkexs = document.getElementsByClassName('delWex');
     console.log(workexs.length);
@@ -55,9 +55,43 @@ window.onload = function () {
           console.log(entry);
           entry.remove(); 
         }
-        assignIDs();
+        assignIdsWorkEx();
       });
     }
   }
+
+  var addEducationButton = document.getElementById('addEdu');
+  if(addEducationButton){
+    addEducationButton.addEventListener('click', addEducation);
+  }
+  function addEducation() {
+    var EDU = document.getElementById('EDU');
+    var divEntry = document.createElement('div');
+    divEntry.className = "edu";
+    var newEDU = document.getElementsByClassName("edu")[0];
+    divEntry.innerHTML = newEDU.innerHTML;
+    EDU.appendChild(divEntry);
+    assignIdsEducation();
+  }
+
+  function assignIdsEducation(){
+    var edus = document.getElementsByClassName('edu');
+    var deledus = document.getElementsByClassName('delEdu');
+    console.log(edus.length);
+    for(var i=0;i<edus.length;i++){
+      edus[i].id = 'education'+(i+1);
+      deledus[i].id='deleducation'+(i+1);
+      document.getElementById('deleducation'+(i+1)).addEventListener('click', function(){
+        var delID = this.parentNode.id;
+        if(delID!='education1'){
+          var entry = document.getElementById(delID);
+          console.log(entry);
+          entry.remove(); 
+        }
+        assignIdsEducation();
+      });
+    }
+  }
+
 
 }
