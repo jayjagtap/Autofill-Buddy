@@ -90,17 +90,33 @@ window.onload = function () {
     document.getElementById('saveNewProfile').addEventListener('click', function(){
       var fields = $('#newProfileForm')[0];
       var formdata = new FormData(fields);
+      console.log(formdata);
       var formjson = {};
       for(var pair of formdata.entries()){
         var keyy = pair[0];
         formjson[keyy] = pair[1];
       }
       var key = formjson['profileName'];
-      var val = formjson;
-      chrome.storage.sync.set({key: val}, function() {
+      chrome.storage.sync.set({key: formjson}, function() {
         alert('Data stored successfully');
       });
-      console.log(formjson['profileName']);
+
+      chrome.storage.sync.get('allprofiles', function(data){
+        if(data.allprofiles != undefined){
+          data.allprofiles.push(key);
+          chrome.storage.sync.set({'allprofiles':data.allprofiles}, function(){
+            console.log('Success list of profiles');
+          });
+        }
+        else{
+          var profileJson =[];
+          profileJson.push(key);
+          chrome.storage.sync.set({'allprofiles':profileJson}, function(){
+            console.log('Success new list of profiles');
+          });
+        }
+      });
+
       location.href = 'popup.html';
     });
   

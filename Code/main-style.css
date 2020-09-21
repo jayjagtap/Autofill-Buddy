@@ -86,3 +86,15 @@ input[type=text], textarea{
     margin: 0;
     font-size: 0.8em !important; 
 }
+
+#variableTable td{
+    border: 1px solid black;
+}
+
+#variableTable th{
+    border: 1px solid black;
+}
+
+#data {
+    margin: 0%;
+}

@@ -1,7 +1,14 @@
 window.onload = function(){
-    chrome.storage.sync.get('Data', function(result) {
-        console.log(result);
+    var profileName = 'abc';
+    chrome.storage.sync.get(profileName, function(result) {
+        console.log(result[profileName][0]);
+        var outputJson = result[profileName][0];
+        for(var i in outputJson){
+            document.getElementById(i).value=outputJson[i];
+            document.getElementById(i).readOnly=true;
+        }
     });
+    
 
     var back = document.getElementById('back');
     if(back){

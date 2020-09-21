@@ -24,6 +24,25 @@ document.addEventListener('DOMContentLoaded',function() {
         window.alert("Following data is successfully stored: \n tag: " + key.trim() + "\n workex: " + value.trim())
         clear_or_warning(true)
       });
+      var temp = {};
+      temp[key]=value;
+      chrome.storage.sync.get('variables', function(data){
+        if(data.variables != undefined){
+          data.variables.push(temp);
+          chrome.storage.sync.set({'variables': data.variables}, function(){
+            console.log('success list of variables');
+          });
+        } 
+        else {
+          var variableJson = {};
+          variableJson['variables'] = [];
+          variableJson['variables'].push(temp);
+          chrome.storage.sync.set({'variables': variableJson['variables']}, function(){
+            console.log('Sucess new list of variables');
+          });
+        }
+      });
+      location.href='popup.html';
     }
     else {
         clear_or_warning(false)
@@ -122,6 +141,49 @@ function clear_or_warning(flag){
     }
   }
 
+function fillVariablesDiv(){
+  var variableDiv = document.getElementById('variableTable');
+  chrome.storage.sync.get('variables', function(data){
+    for(var i=0; i<data.variables.length;i++){
+      var row = document.createElement('tr');
+      var col1 = document.createElement('td');
+      var col2 = document.createElement('td');
+      for(var j in data.variables[i]){
+        var text1 = document.createTextNode(j);
+        var text2 = document.createTextNode(data.variables[i][j]);
+      }
+      col1.appendChild(text1);
+      row.appendChild(col1);
+      col2.appendChild(text2);
+      row.appendChild(col2);
+      variableDiv.appendChild(row);
+    }
+  });
+}
+
+function fillProfileDiv(){
+  var profileDiv = document.getElementById('profileDiv');
+  chrome.storage.sync.get('allprofiles', function(data){
+    for(var i=0;i<data.allprofiles.length;i++){
+      var buttonRow = document.createElement('button');
+      buttonRow.className = 'profile-item';
+      buttonRow.id = data.allprofiles[i];
+      buttonRow.value = data.allprofiles[i];
+      buttonRow.innerText = data.allprofiles[i];
+      profileDiv.appendChild(buttonRow);
+    }
+  });
+}
+
+// function addListenerToProfile(){
+//   var profiles = document.getElementsByClassName('profile-item');
+//   for(var i=0;i<profiles.length;i++){
+//     profiles[i].addEventListener('click', function(){
+
+//     });
+//   }
+// }
+
 window.onload = function () {
     types = ["input","textarea"]
     lengths = types.map(type => document.querySelectorAll(type).length)
@@ -135,7 +197,7 @@ window.onload = function () {
     function createNewProfile () {
     location.href = 'newProfile.html';
     }
-    document.getElementById('Data').addEventListener('click', function(){
-      location.href='viewProfile.html';
-    });
+    addListenerToProfile();
+    fillVariablesDiv();
+    fillProfileDiv();
 }
