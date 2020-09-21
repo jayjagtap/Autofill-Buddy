@@ -13,7 +13,7 @@ Alternatively, you can click over here for the [720p](https://drive.google.com/f
 
 </p>
 
-[![Watch the video](https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/video/thumbnail.png)](https://youtu.be/BZmXUMSAnfc)
+[![Watch the video](https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/Resources/Images/thumbnail.png)](https://youtu.be/BZmXUMSAnfc)
 
 ## Installation and Setting Up to use
 <details>
@@ -32,7 +32,7 @@ Alternatively, you can click over here for the [720p](https://drive.google.com/f
 
 ## Prototype
 
-<img src="https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/video/prototype-1.png" height="500px" width="350px"/>
+<img src="https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/Resources/Images/prototype-1.png" height="500px" width="350px"/>
 
 
 
