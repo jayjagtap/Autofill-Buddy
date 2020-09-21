@@ -1,6 +1,6 @@
 
 document.addEventListener('DOMContentLoaded',function() {
-  var save = document.getElementById("saveNewProfile");
+  var save = document.getElementById("submit_data");
   save.addEventListener('click', function() {
       tryStoreValue()
   })
@@ -17,38 +17,36 @@ function tryStoreValue() {
   // read values and stor in chrome APIs
   // Right now only for workex 1
 
-  // var wex_form = document.querySelectorAll("workexperience1")
-  // var key = wex_form.elements.namedItem("jobtitle").value
-  // var value = wex_form.elements.namedItem("roledescription").value
-  var key = "linkedin"
-  window.alert(key)
-  var value = document.getElementById('linkedin').value
-  window.alert("inside")
-  window.alert(value)
-  if (key.trim() && value.trim()) {
-      chrome.storage.sync.set({[key]: value}, () => sendOutput(true))
-      window.alert("Value Saved")
+  var key = document.getElementById("tag_name").value
+  var value = document.getElementById('workex_desc').value
+  if (key.trim() && value.trim()) 
+  {
+    chrome.storage.sync.set({key: value}, function() {
+      window.alert("Following data is successfully stored: \n tag: " + key.trim() + "\n workex: " + value.trim())
+      clear_or_warning(true)
+    });
   }
   else {
-      sendOutput(false)
+      clear_or_warning(false)
   }
 }
 
-function sendOutput(valid) {
-  element = document.getElementById("linkedin")
-  if (valid) {
-      html = "<p>variable has been set</p>"
-  }
-  else {
-      html = "<p class='red-font'>name or value cannot be empty</p>" 
-  }
+function clear_or_warning(flag){
 
-  element.innerHTML = html
+  //Clear fields in popup.html
+  if (flag){
+    document.getElementById("workex_desc").value=""
+    document.getElementById("tag_name").value=""
+  }
+  else{
+    window.alert("tag or workex cannot be empty")
+    document.getElementById("workex_desc").value=""
+    document.getElementById("tag_name").value=""
+  }
 }
 
 window.onload = function () {
-  
-  
+
   // Handle new profile redirect
   var newProfileButton = document.getElementById('newProfile');
   if(newProfileButton){
