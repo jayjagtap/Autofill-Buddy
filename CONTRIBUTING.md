@@ -9,7 +9,10 @@ Autobill Buddy is a community project. We invite your participation through fina
 2. Develop you Code on a relevant branch 
 3. Check for code standards and format
 4. Create a pull request to appropriate branch
-5. Follow your convertsation to get the pull request merged
+5. Follow your conversation to get the pull request merged
+
+### Use StandardJs and JSHint
+We use the above packages to keep the code in an uniform style, recognize errors and autmatically format code. The installation intructions for these packages are given in the README.md of the root directory.
 
 #### Financial contributions
 We welcome financial contributions in full transparency on our open collective. Anyone can file an expense. If the expense makes sense for the development of the community, it will be "merged" into the ledger of our open collective by the core contributors and the person who filed the expense will be reimbursed.
