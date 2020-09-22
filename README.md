@@ -5,8 +5,7 @@
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/ssp4all/)
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/jayjagtap/Autofill-Buddy/graphs/commit-activity) [![Contributors Activity](https://img.shields.io/github/commit-activity/m/jayjagtap/Autofill-Buddy)](https://github.com/jayjagtap/Autofill-Buddy/pulse) [![GitHub issues](https://img.shields.io/github/issues/jayjagtap/Autofill-Buddy.svg)](https://github.com/jayjagtap/Autofill-Buddy/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/jayjagtap/Autofill-Buddy.svg)](https://https://github.com/jayjagtap/Autofill-Buddy/issues?q=is%3Aissue+is%3Aclosed) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE) [![Build Status](https://travis-ci.com/jayjagtap/Autofill-Buddy.svg?branch=master)](https://travis-ci.com/github/jayjagtap/Autofill-Buddy) [![DOI](https://zenodo.org/badge/245290005.svg)](https://zenodo.org/badge/latestdoi/245290005) [![GitHub release](https://img.shields.io/github/release/jayjagtap/Autofill-Buddy.svg)](https://GitHub.com/jayjagtap/Autofill-Buddy/releases/) [![StandardJS](https://img.shields.io/badge/StyleChecker-StandardJS-purple.svg)](https://shields.io/) [![StandardJS](https://img.shields.io/badge/StaticCodeAnalysis-JSHint-red.svg)](https://shields.io/)
-
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/jayjagtap/Autofill-Buddy/graphs/commit-activity) [![Contributors Activity](https://img.shields.io/github/commit-activity/m/jayjagtap/Autofill-Buddy)](https://github.com/jayjagtap/Autofill-Buddy/pulse) [![GitHub issues](https://img.shields.io/github/issues/jayjagtap/Autofill-Buddy.svg)](https://github.com/jayjagtap/Autofill-Buddy/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/jayjagtap/Autofill-Buddy.svg)](https://https://github.com/jayjagtap/Autofill-Buddy/issues?q=is%3Aissue+is%3Aclosed) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE) [![Build Status](https://travis-ci.com/jayjagtap/Autofill-Buddy.svg?branch=master)](https://travis-ci.com/github/jayjagtap/Autofill-Buddy) [![DOI](https://zenodo.org/badge/245290005.svg)](https://zenodo.org/badge/latestdoi/245290005) [![GitHub release](https://img.shields.io/github/release/jayjagtap/Autofill-Buddy.svg)](https://GitHub.com/jayjagtap/Autofill-Buddy/releases/) [![StandardJS](https://img.shields.io/badge/StyleChecker-StandardJS-purple.svg)](https://standardjs.com/)
 
 
 
@@ -51,8 +50,6 @@ Detailed Documentation is available in the wiki section of the repository
 - <b>StandardJS</b> - style checker for javascript 
     - `npm install standard --global` or VS Code extension 
 
-- <b>JSHint</b> - Static code analyser
-    - `npm install -g jshint` or VS Code extension 
 - <b>Bootstrap 4</b>
 - <b>Chrome</b> 14+
 
