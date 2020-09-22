@@ -34,6 +34,7 @@ Click on the image below to see the video on ▶️ Youtube!  Alternatively, vid
     <img src="https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/Resources/Images/Choose_folder.png" alt="choose-folder"/>
 - Chrome Extension now will be added to Google Chrome
 </details>
+
 ### Usage ⚙️
     Enter <tag-name>. in input box on this browser (remember there is a dot)
     It will replace the tag name with the tag value
