@@ -11,7 +11,7 @@ Autobill Buddy is a community project. We invite your participation through fina
 4. Create a pull request to appropriate branch
 5. Follow your conversation to get the pull request merged
 
-### Use StandardJs and JSHint
+### Use StandardJs
 We use the above packages to keep the code in an uniform style, recognize errors and automatically format code. The installation intructions for these packages are given in the README.md of the root directory.
 
 #### Financial contributions
