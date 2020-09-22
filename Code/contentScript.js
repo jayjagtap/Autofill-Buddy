@@ -3,19 +3,9 @@ document.addEventListener('DOMContentLoaded',function() {
     save.addEventListener('click', function() {
         tryStoreValue()
     })
-    // var variables = document.getElementById("variables");
-    // variables.addEventListener('click', () => chrome.tabs.create({ url: "variables.html" }))
-  
-    // var find = document.getElementById("find");
-    // find.addEventListener("click", () => {
-    //     tryGetValue()
-    // })
   })
   
-  function tryStoreValue() {
-    // read values and stor in chrome APIs
-    // Right now only for workex 1
-  
+  function tryStoreValue() {  
     var key = document.getElementById("tag_name").value
     var value = document.getElementById('workex_desc').value
     if (key.trim() && value.trim()) 
@@ -68,9 +58,7 @@ document.addEventListener('DOMContentLoaded',function() {
         }
         i += 1
     }
-    //window.alert("inside tryParse, dot detected")
     if (handled && element.value[element.value.length-1] == ".") {
-       // window.alert("inside tryParse, dot detected:  " + element.value.substring(0, element.value.length-1) )
         element.value = element.value.substring(0, element.value.length-1)
   
     }
@@ -88,8 +76,7 @@ document.addEventListener('DOMContentLoaded',function() {
     var variableName = element.value.substring(starting+1, ending)
     alreadyReplaced = false
     var value = await getValue(variableName)
-    
-    //var key_value = Object.entries(value)
+  
     if (value != undefined && !alreadyReplaced){ 
       alreadyReplaced = true
       element.value = value
