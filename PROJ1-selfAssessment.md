@@ -39,7 +39,7 @@
 || issues are discussed before they are closed|4|
 || Chat channel: exists|4|
 || Chat channel: is active |4|
-|| test cases:.a large proportion of the issues related to handling failing cases.||
+|| test cases:.a large proportion of the issues related to handling failing cases.|2|
 | Zero internal boundaries | evidence that the whole team is using the same tools: everyone can get to all tools and files|4|
 | | evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)|4|
 | | evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)|4|
