@@ -7,7 +7,7 @@ body{
     font-size: 0.8em !important;
 }
 .jumbotron{
-    padding: 1rem 1rem !important;
+    padding: 0.8rem 0.8rem !important;
 }
 /* header starts */
 #main-header{
@@ -26,6 +26,7 @@ header{
     margin-bottom: 0;
 }
 .heading{
+    font-family: "Lucida Console", Courier, monospace;
     font-size: 1.3em;
     text-align: center;
     font-weight: bolder;
