@@ -17,14 +17,10 @@
 <body>
 	<div class="container">
 		<header id="main-header">
-			<br />
-			<div class="heading"><h4> APPLICATION TRACKER </h4></div>
-			<!-- navingation starts -->
-			<div class="jumbotron" style="padding:0;margin:0;">
-				<!-- navigation ends -->
-			</div>
-
+			<div class="jumbotron heading"><a style="text-decoration: none;cursor: pointer;"
+					href="https://github.com/jayjagtap/Autofill-Buddy">Autofill Buddy</a></div>
 		</header>
+		<!-- <br><br><br> -->
 		<div class="content">
 			<div class="jumbotron">
 				<span><b>Profiles</b></span>
@@ -32,12 +28,13 @@
 					<!-- <button class="profile-item" id = "SE" value="Software Engineering">Software Engineering</button>
 					<button class="profile-item" id = "abc" value="Data Science">Data Science</button> -->
 				</div>
-				<br/>
-				<button type="button" style="width:100%;margin:0;" class="btn btn-info" id="newProfile">Create a new profile +</button>
-			</div>	
+				<br />
+				<button type="button" style="width:100%;margin:0;" class="btn btn-info" id="newProfile">Create a new
+					profile +</button>
+			</div>
 			<div class="jumbotron">
-				<span><b>Variables</b></span>
-				<br/>
+				<span><b>Tags</b></span>
+				<br />
 				<div id="variables">
 					<table style="width: 100%" id="variableTable">
 						<thead>
@@ -48,9 +45,14 @@
 						</thead>
 					</table>
 				</div>
-				<br/>
-				<div>
-					<table id="data">
+				<br />
+				<div id="data">
+					<input type="text" placeholder="Tag name e.g., workex1" id="tag_name" autofocus required>
+					<textarea rows=3 placeholder="Tag content here..." id="workex_desc" required></textarea>
+					<button type="button" style="width:100%;margin:0;" class="btn btn-info" id="submit_data">Submit
+						Data</button>
+
+					<!-- <table id="data">
 						<thead>
 							<tr>
 								<th width="25%">Tag Name</th>
@@ -72,15 +74,15 @@
 								<button type="button" style="width:100%;margin:0;" class="btn btn-info" id="submit_data">Submit Data</button>
 							</td>
 						</tr>
-					</table>
+					</table> -->
 				</div>
-			</div>		
+			</div>
 		</div>
 		<br>
 		<footer>
 			<div class="jumbotron" id="main-footer">
 				<div class="container text-center">
-					<small>Copyright &copy; Your Website</small>
+					<small>Copyright &copy; Autofill Buddy 2020</small>
 				</div>
 			</div>
 		</footer>

@@ -6,6 +6,9 @@ body{
     color: gray !important;
     font-size: 0.8em !important;
 }
+.jumbotron{
+    padding: 1rem 1rem !important;
+}
 /* header starts */
 #main-header{
     position: fixed;
@@ -18,11 +21,17 @@ body{
 header{
     margin-bottom: 8px;
 }
+.jumbotron.heading{
+    padding: 0;
+    margin-bottom: 0;
+}
 .heading{
-    font-size: 0.8em;
+    font-size: 1.3em;
     text-align: center;
     font-weight: bolder;
-    margin-bottom:  10px;
+    margin: 0;
+    margin-bottom:  2px;
+    padding: 0;
 }
 nav{
     margin: 0;
@@ -40,38 +49,57 @@ nav{
 }
 /* header ends */
 
+#variableTable{
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+#variableTable th,td, tr{
+    padding: 5px 2px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#variableTable th,td, tr:hover{
+    background: white;
+    color: gray;
+}
+
+#data {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+
 /* content starts */
 .content{
-    margin-top: 90px;
+    margin-top: 80px;
     text-align: center;
 }
 input[type=text], textarea{
     color: gray;
 }
 .content button{
-    font-size: 0.8em !important;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 1em !important;
 }
-#data{
-    margin-left: 30px;
-    border-collapse: separate;
-    border-spacing: 0 5px;
+.content button:hover{
+    font-size: 1.3em !important;
 }
+
 .profiles{
     display: flex;
     flex-direction: column;
 }
 .profile-item{
-    border: 2px solid lightblue;
+    border: 2px solid rgb(100, 197, 230);
     padding: 5px;
     margin: 3px;
     cursor: pointer;
 }
 .profile-item:hover{
     background: white;
-    color: lightblue;
-    font-weight: 900;
+    color: rgb(46, 132, 161);
+    font-weight: 600;
 }
 /* content ends */
 
@@ -85,16 +113,4 @@ input[type=text], textarea{
     z-index: 1;
     margin: 0;
     font-size: 0.8em !important; 
-}
-
-#variableTable td{
-    border: 1px solid black;
-}
-
-#variableTable th{
-    border: 1px solid black;
-}
-
-#data {
-    margin: 0%;
 }
