@@ -21,7 +21,7 @@
 			<div class="heading"><h4> APPLICATION TRACKER </h4></div>
 			<!-- navingation starts -->
 			<div class="jumbotron" style="padding:0;margin:0;">
-				<nav class="navbar navbar-expand justify-content-center">
+				<!-- <nav class="navbar navbar-expand justify-content-center">
 					<ul class="navbar-nav">
 						<li class="nav-item">
 							<a class="nav-link" href="#">Add Resume</a>
@@ -36,72 +36,61 @@
 							<a class="nav-link" href="#">Settings</a>
 						</li>
 					</ul>
-				</nav>
+				</nav> -->
 				<!-- navigation ends -->
 			</div>
 
 		</header>
 		<div class="content">
-			<!-- <div class="jumbotron" id="update-data">
-				<button type="button" class="btn btn-info" id="upload-resume">Upload Resume</button>
-
-				<span>OR</span>
-
-				<button type="button" class="btn btn-info" id="manual-data">Enter Manually</button>
-
-			</div> -->
-			<br/>
 			<div class="jumbotron">
 				<span><b>Profiles</b></span>
-				<div class="profiles">
-					<button class="profile-item" id = "temp" value="Software Engineering">Software Engineering</button>
-					<button class="profile-item" id = "temp2" value="Data Science">Data Science</button>
+				<div class="profiles" id="profileDiv">
+					<!-- <button class="profile-item" id = "SE" value="Software Engineering">Software Engineering</button>
+					<button class="profile-item" id = "abc" value="Data Science">Data Science</button> -->
 				</div>
-				<br>
+				<br/>
 				<button type="button" style="width:100%;margin:0;" class="btn btn-info" id="newProfile">Create a new profile +</button>
 			</div>	
 			<div class="jumbotron">
-				<table id="data">
-					<thead>
-						<tr>
-							<th width="35%">Tag Name</th>
-							<th width="75%">Work Experience</th>
-						</tr>
-					</thead>
-					<tr>
-						<td>
-							<input type="text" placeholder="tag name, e.g: workex1" id="tag_name">
-						</td>
-						
-						<td>
-							<textarea rows=3 placeholder="your workex here" id="workex_desc">
-							</textarea>
-						</td>
-					</tr>
-					<!-- <tr>
-						<td>Why this position</td>
-						<td>
-							<textarea rows=3>- Worked on XYZ technology 		- Implemented ABC
-							</textarea>
-						</td>
-					</tr> -->
-					<tr>
-						<td colspan="2">
-							<button type="button" style="width:100%;margin:0;" class="btn btn-info" id="submit_data">Submit Data</button>
-						</td>
-					</tr>
-				</table>
-			</div>		
-			<!-- <div class="jumbotron">
-				<span><b>Profiles</b></span>
-				<div class="profiles">
-					<div class="profile-item"> Software Engineering</div>
-					<div class="profile-item"> Data Science</div>
+				<span><b>Variables</b></span>
+				<br/>
+				<div id="variables">
+					<table style="width: 100%" id="variableTable">
+						<thead>
+							<tr>
+								<th width="25%">Tag Name</th>
+								<th width="75%">Tag Value</th>
+							</tr>
+						</thead>
+					</table>
 				</div>
-				<br>
-				<button type="button" style="width:100%;margin:0;" class="btn btn-info">Create a new profile +</button>
-
-			</div>	 -->
+				<br/>
+				<div>
+					<table id="data">
+						<thead>
+							<tr>
+								<th width="25%">Tag Name</th>
+								<th width="75%">Work Experience</th>
+							</tr>
+						</thead>
+						<tr>
+							<td>
+								<input type="text" placeholder="tag name, e.g: workex1" id="tag_name">
+							</td>
+							
+							<td>
+								<textarea rows=3 placeholder="your workex here" id="workex_desc">
+								</textarea>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<button type="button" style="width:100%;margin:0;" class="btn btn-info" id="submit_data">Submit Data</button>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>		
 		</div>
 		<br>
 		<footer>
