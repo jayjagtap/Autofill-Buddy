@@ -3,19 +3,9 @@ document.addEventListener('DOMContentLoaded',function() {
     save.addEventListener('click', function() {
         tryStoreValue()
     })
-    // var variables = document.getElementById("variables");
-    // variables.addEventListener('click', () => chrome.tabs.create({ url: "variables.html" }))
-  
-    // var find = document.getElementById("find");
-    // find.addEventListener("click", () => {
-    //     tryGetValue()
-    // })
   })
   
-  function tryStoreValue() {
-    // read values and stor in chrome APIs
-    // Right now only for workex 1
-  
+  function tryStoreValue() {  
     var key = document.getElementById("tag_name").value
     var value = document.getElementById('workex_desc').value
     if (key.trim() && value.trim()) 
@@ -87,9 +77,7 @@ document.addEventListener('DOMContentLoaded',function() {
         }
         i += 1
     }
-    //window.alert("inside tryParse, dot detected")
     if (handled && element.value[element.value.length-1] == ".") {
-       // window.alert("inside tryParse, dot detected:  " + element.value.substring(0, element.value.length-1) )
         element.value = element.value.substring(0, element.value.length-1)
   
     }
@@ -107,8 +95,7 @@ document.addEventListener('DOMContentLoaded',function() {
     var variableName = element.value.substring(starting+1, ending)
     alreadyReplaced = false
     var value = await getValue(variableName)
-    
-    //var key_value = Object.entries(value)
+  
     if (value != undefined && !alreadyReplaced){ 
       alreadyReplaced = true
       element.value = value
@@ -176,16 +163,23 @@ function fillProfileDiv(){
 }
 
 function addListenerToProfile(){
-  var profiles = document.getElementsByClassName('profile-item');
-  console.log(profiles.length); 
-  for(var i=0;i<profiles.length;i++){
-    // console.log(profiles);
-    profiles[i].addEventListener('click', function(){
-      console.log("amit");
-      localStorage.setItem('selectedProfile', profiles[i].id);
-      location.href='viewProfile.html';
-    });
-  }
+  chrome.storage.sync.get('allprofiles', function(data){
+    for(var i=0;i<data.allprofiles.length;i++){
+      console.log(data.allprofiles[i]);
+      var profile = document.getElementById(data.allprofiles[i]);
+      var profileName = data.allprofiles[i];
+      profile.addEventListener('click', function(){
+        var tempJson = [];
+        tempJson.push(data.allprofiles[i]);
+        chrome.storage.sync.set({'selectedProfile': tempJson}, function(){
+          chrome.storage.sync.get('selectedProfile', function(res){
+            var profileName = res.selectedProfile;
+          });
+          location.href='viewProfile.html';
+        });
+      });
+    }
+  });
 }
 
 window.onload = function () {
