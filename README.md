@@ -39,8 +39,8 @@ Click on the image below to see the video on ▶️ Youtube!  Alternatively, vid
 
 
 
-### Documentation 📚
-- More support and documentation available on the wiki of this repo!
+#### Documentation
+Detailed Documentation is available in the wiki section of the repository
 
 ### Software requirements 💻
 - <b>Node v14.11.0 & npm 6.14.8</b>
