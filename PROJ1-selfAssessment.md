@@ -28,7 +28,7 @@
 ||Use of  style checkers |4|
 || Use of code  formatters. |4|
 || Use of syntax checkers. |4|
-|| Use of code coverage ||
+|| Use of code coverage |4|
 || Other automated analysis tools|4|
 || test cases exist|4|
 || test cases are routinely executed|4|
