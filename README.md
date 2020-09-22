@@ -1,24 +1,27 @@
-<p align=center>
-    <img height=50 width=200 alt="logo here" src="https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/Resources/Images/logo.png"/>
+<p>
+    <img height=150 width=500 alt="logo here" src="https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/Resources/Images/logo.png"/>
     <blockquote>A Chrome extension to assist you in your <b>dream job</b> hunt!</blockquote>
+</p>
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/ssp4all/)
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/jayjagtap/Autofill-Buddy/graphs/commit-activity) [![Contributors Activity](https://img.shields.io/github/commit-activity/m/jayjagtap/Autofill-Buddy)](https://github.com/jayjagtap/Autofill-Buddy/pulse) [![GitHub issues](https://img.shields.io/github/issues/jayjagtap/Autofill-Buddy.svg)](https://github.com/jayjagtap/Autofill-Buddy/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/jayjagtap/Autofill-Buddy.svg)](https://https://github.com/jayjagtap/Autofill-Buddy/issues?q=is%3Aissue+is%3Aclosed) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE) [![Build Status](https://travis-ci.com/jayjagtap/Autofill-Buddy.svg?branch=master)](https://travis-ci.com/github/jayjagtap/Autofill-Buddy) [![DOI](https://zenodo.org/badge/245290005.svg)](https://zenodo.org/badge/latestdoi/245290005) [![GitHub release](https://img.shields.io/github/release/jayjagtap/Autofill-Buddy.svg)](https://GitHub.com/jayjagtap/Autofill-Buddy/releases/)
-</p>
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/jayjagtap/Autofill-Buddy/graphs/commit-activity) [![Contributors Activity](https://img.shields.io/github/commit-activity/m/jayjagtap/Autofill-Buddy)](https://github.com/jayjagtap/Autofill-Buddy/pulse) [![GitHub issues](https://img.shields.io/github/issues/jayjagtap/Autofill-Buddy.svg)](https://github.com/jayjagtap/Autofill-Buddy/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/jayjagtap/Autofill-Buddy.svg)](https://https://github.com/jayjagtap/Autofill-Buddy/issues?q=is%3Aissue+is%3Aclosed) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE) [![Build Status](https://travis-ci.com/jayjagtap/Autofill-Buddy.svg?branch=master)](https://travis-ci.com/github/jayjagtap/Autofill-Buddy) [![DOI](https://zenodo.org/badge/245290005.svg)](https://zenodo.org/badge/latestdoi/245290005) [![GitHub release](https://img.shields.io/github/release/jayjagtap/Autofill-Buddy.svg)](https://GitHub.com/jayjagtap/Autofill-Buddy/releases/) [![StandardJS](https://img.shields.io/badge/StyleChecker-StandardJS-purple.svg)](https://standardjs.com/)
 
 
 
 <p> 
 
-Click on the image below to see the video on Youtube! 
-Alternatively, video Drive links [720p](https://drive.google.com/file/d/1MLowTYHlZKbeY0d82yjHUKPnBAssRBA5/view?usp=sharing) or [1080p](https://drive.google.com/file/d/1OxoCkMK3PhX8sMYNUHoRRzcCfGae-zqU/view?usp=sharing)
+Click on the image below to see the video on ▶️ Youtube!  Alternatively, video Drive links [720p](https://drive.google.com/file/d/1MLowTYHlZKbeY0d82yjHUKPnBAssRBA5/view?usp=sharing) or [1080p](https://drive.google.com/file/d/1OxoCkMK3PhX8sMYNUHoRRzcCfGae-zqU/view?usp=sharing)
 
 </p>
 
 <a  href="https://youtu.be/BZmXUMSAnfc"><img height=200 width=600 src="https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/Resources/Images/thumbnail.png"/></a>
 
-#### Installation and Setting Up to use
+
+
+
+### Installation and Setting Up to use 🙋
+![Autofill-Buddy-working](https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/Resources/Images/autofill-buddy.gif)
 <details>
 <summary>Installation Guide</summary>
 
@@ -32,28 +35,26 @@ Alternatively, video Drive links [720p](https://drive.google.com/file/d/1MLowTYH
 - Chrome Extension now will be added to Google Chrome
 </details>
 
-
-#### Prototype
-
+### Prototype📱
+<details>
 <img src="https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/Resources/Images/prototype-1.png" height="500px" width="350px"/>
+</details>
 
 
-
-#### Documentation
+### Documentation📚
 Detailed Documentation is available in the wiki section of the repository
 
-#### Software requirements
-- Node v14.11.0 & npm 6.14.8
+### Software requirements 💻
+- <b>Node v14.11.0 & npm 6.14.8</b>
     - For Mac, get brew
     `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
     - `brew install node`
 
-- StandardJS - style checker for javascript
-    - `npm install standard --global` or VS Code extension
+- <b>StandardJS</b> - style checker for javascript 
+    - `npm install standard --global` or VS Code extension 
 
-- JSHint - Static code analyser
-    - `npm install -g jshint` or or VS Code extension 
-- Bootstrap 4
+- <b>Bootstrap 4</b>
+- <b>Chrome</b> 14+
 
-#### Bug?
+### Bug? 🐛
 - Raise a issue on this repository, we would love to look at it ❤️
