@@ -176,16 +176,23 @@ function fillProfileDiv(){
 }
 
 function addListenerToProfile(){
-  var profiles = document.getElementsByClassName('profile-item');
-  console.log(profiles.length); 
-  for(var i=0;i<profiles.length;i++){
-    // console.log(profiles);
-    profiles[i].addEventListener('click', function(){
-      console.log("amit");
-      localStorage.setItem('selectedProfile', profiles[i].id);
-      location.href='viewProfile.html';
-    });
-  }
+  chrome.storage.sync.get('allprofiles', function(data){
+    for(var i=0;i<data.allprofiles.length;i++){
+      console.log(data.allprofiles[i]);
+      var profile = document.getElementById(data.allprofiles[i]);
+      var profileName = data.allprofiles[i];
+      profile.addEventListener('click', function(){
+        var tempJson = [];
+        tempJson.push(data.allprofiles[i]);
+        chrome.storage.sync.set({'selectedProfile': tempJson}, function(){
+          chrome.storage.sync.get('selectedProfile', function(res){
+            var profileName = res.selectedProfile;
+          });
+          location.href='viewProfile.html';
+        });
+      });
+    }
+  });
 }
 
 window.onload = function () {
