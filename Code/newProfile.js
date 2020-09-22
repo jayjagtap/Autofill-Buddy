@@ -121,4 +121,4 @@ function addNewWorkEx () {
   assignIdsWorkEx()
 }
 
-module.exports = {addNewWorkEx}
+module.exports = { addNewWorkEx }
