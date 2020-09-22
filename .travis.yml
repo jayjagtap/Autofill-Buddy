@@ -1,12 +1,14 @@
-language: python
-python:
-  - "3.5"
-  - "3.6"    
-  - "3.7"
+language: node_js
 # command to install dependencies
+node_js:
+  - 10
+  - 9
+  - 8
+  - 7
+  - 6
 install:
-  - pip install -r requirements.txt
+  - cd Code && npm install && cd ..
 # command to run tests
 script:
-  - pytest 
+  - cd Code && npm run test
 

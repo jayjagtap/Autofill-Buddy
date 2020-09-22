@@ -1,0 +1,17 @@
+{
+  "name": "autofillbuddy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "contentScript.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
