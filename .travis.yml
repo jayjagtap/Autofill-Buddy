@@ -2,10 +2,6 @@ language: node_js
 # command to install dependencies
 node_js:
   - 10
-  - 9
-  - 8
-  - 7
-  - 6
 install:
   - cd Code && npm install && cd ..
 # command to run tests
