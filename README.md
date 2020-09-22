@@ -40,7 +40,7 @@ Alternatively, video Drive links [720p](https://drive.google.com/file/d/1MLowTYH
 
 
 #### Documentation
-- More support and documentation available on the wiki of this repo!
+Detailed Documentation is available in the wiki section of the repository
 
 #### Software requirements
 - Node v14.11.0 & npm 6.14.8
