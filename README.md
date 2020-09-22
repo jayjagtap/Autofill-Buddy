@@ -38,7 +38,7 @@ Click on the image below to see the video on ▶️ Youtube!  Alternatively, vid
 
 
 
-#### Documentation
+### Documentation📚
 Detailed Documentation is available in the wiki section of the repository
 
 ### Software requirements 💻
