@@ -16,6 +16,11 @@
 	"permissions": [
 		"activeTab","storage"
 	],
+	"icons":{
+			"16": "logo/icon.png",
+			"48": "logo/icon.png",
+			"128": "logo/icon.png"			
+	},
 	"content_security_policy": "script-src 'self' https://code.jquery.com https://cdnjs.cloudflare.com https://maxcdn.bootstrapcdn.com; object-src 'self'"
 }
 
