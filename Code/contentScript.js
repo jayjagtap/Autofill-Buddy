@@ -180,15 +180,15 @@ function addListenerToProfile () {
   chrome.storage.sync.get('allprofiles', function (data) {
     for (var i = 0; i < data.allprofiles.length; i++) {
       console.log(data.allprofiles[i])
-      var profile = document.getElementById(data.allprofiles[i])
+      // var profile = document.getElementById(data.allprofiles[i])
       // var profileName = data.allprofiles[i]
-      profile.addEventListener('click', function () {
+      document.getElementById(data.allprofiles[i]).addEventListener('click', function () {
+        console.log('amit', this.id)
         var tempJson = []
-        tempJson.push(data.allprofiles[i])
+        tempJson.push(this.id)
+        console.log(tempJson)
+
         chrome.storage.sync.set({ selectedProfile: tempJson }, function () {
-          chrome.storage.sync.get('selectedProfile', function (res) {
-            // var profileName = res.selectedProfile
-          })
           location.href = 'viewProfile.html'
         })
       })

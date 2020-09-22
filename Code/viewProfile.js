@@ -4,11 +4,12 @@ window.onload = function () {
   // var profileName = localStorage.getItem('selectedProfile');
   var profileName
   chrome.storage.sync.get('selectedProfile', function (data) {
-    profileName = data.selectedProfile
+    profileName = data.selectedProfile[0]
+    console.log(profileName)
   })
-  console.log(profileName)
+
   chrome.storage.sync.get(profileName, function (result) {
-    console.log(result[profileName][0])
+    console.log(result)
     var outputJson = result[profileName][0]
     for (var i in outputJson) {
       document.getElementById(i).value = outputJson[i]
