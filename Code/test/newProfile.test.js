@@ -1,13 +1,11 @@
-// __tests__/displayUser-test.js
+
 /* global expect */
 'use strict'
 const {addNewWorkEx} = require('../newProfile')
 
 test('Add Work Experience', () => {
   // Set up our document body
-//   document.head.innerHTML = '<script src="newProfile.js"></script>'
   document.body.innerHTML =
-//   '<script src="newProfile.js"></script>'+
   '<div id="WE">'+
   '<div class="wex" id="workexperience">'+
       '<table>'+
