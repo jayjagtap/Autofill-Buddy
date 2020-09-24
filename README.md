@@ -18,10 +18,11 @@ Click on the image below to see the video on ▶️ Youtube!  Alternatively, vid
 <a  href="https://youtu.be/BZmXUMSAnfc"><img height=200 width=600 src="https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/Resources/Images/thumbnail.png"/></a>
 
 
-
+### Working 👨‍💻
+![Autofill-Buddy-working](https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/Resources/Images/working.gif)
 
 ### Installation and Setting Up to use 🙋
-![Autofill-Buddy-working](https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/Resources/Images/autofill-buddy.gif)
+![Autofill-Buddy-installation](https://raw.githubusercontent.com/jayjagtap/Autofill-Buddy/master/Resources/Images/autofill-buddy.gif)
 <details>
 <summary>Installation Guide</summary>
 
