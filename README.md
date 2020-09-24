@@ -53,6 +53,11 @@ Detailed Documentation is available in the wiki section of the repository
     `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
     - `brew install node`
 
+- <b>Jest</b>
+    - `npm install --save-dev jest`
+    
+    In your project folder, Install jest-coverage-badges: `npm install --save jest-coverage-badges`
+    
 - <b>StandardJS</b> - style checker for javascript 
     - `npm install standard --global` or VS Code extension 
 

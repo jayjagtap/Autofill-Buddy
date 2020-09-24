@@ -7,7 +7,7 @@ window.onload = function () {
     profileName = data.selectedProfile[0]
     console.log(profileName)
   })
-
+  console.log(profileName)
   chrome.storage.sync.get(profileName, function (result) {
     console.log(result)
     var outputJson = result[profileName][0]
