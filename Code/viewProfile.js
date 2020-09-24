@@ -1,20 +1,10 @@
 /*  global chrome */
 /*  global location */
 window.onload = function () {
-  // var profileName = localStorage.getItem('selectedProfile');
   var profileName
   chrome.storage.sync.get('selectedProfile', function (data) {
     profileName = data.selectedProfile[0]
-    console.log(profileName)
-  })
-  console.log(profileName)
-  chrome.storage.sync.get(profileName, function (result) {
-    console.log(result)
-    var outputJson = result[profileName][0]
-    for (var i in outputJson) {
-      document.getElementById(i).value = outputJson[i]
-      document.getElementById(i).readOnly = true
-    }
+    getAndFillData(profileName)
   })
 
   var back = document.getElementById('back')
@@ -23,4 +13,20 @@ window.onload = function () {
       location.href = 'popup.html'
     })
   }
+}
+
+function getAndFillData (profileName) {
+  chrome.storage.sync.get('profiles', function (result) {
+    for (var i = 0; i < result.profiles.length; i++) {
+      for (var key in result.profiles[i]) {
+        if (key === profileName) {
+          var outputJson = result.profiles[i][profileName]
+          for (var k in outputJson) {
+            document.getElementById(k).value = outputJson[k]
+            document.getElementById(k).readOnly = true
+          }
+        }
+      }
+    }
+  })
 }

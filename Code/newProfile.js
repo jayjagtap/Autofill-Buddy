@@ -70,9 +70,26 @@ window.onload = function () {
       formjson[keyy] = pair[1]
     }
     var key = formjson.profileName
-    chrome.storage.sync.set({ key: formjson }, function () {
-      alert('Data stored successfully')
+    var temp = {}
+    temp[key] = formjson
+    chrome.storage.sync.get('profiles', function (data) {
+      if (data.profiles !== undefined) {
+        data.profiles.push(temp)
+        chrome.storage.sync.set({ profiles: data.profiles }, function () {
+          console.log('Success list of profiles')
+        })
+      } else {
+        var everyProfileJson = []
+        everyProfileJson.push(temp)
+        chrome.storage.sync.set({ profiles: everyProfileJson }, function () {
+          console.log('Success new list of profiles')
+        })
+      }
     })
+
+    // chrome.storage.sync.set({ key: formjson }, function () {
+    //   alert('Data stored successfully')
+    // })
 
     chrome.storage.sync.get('allprofiles', function (data) {
       if (data.allprofiles !== undefined) {
